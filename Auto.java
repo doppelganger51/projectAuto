@@ -4,6 +4,7 @@ import java.util.Scanner;
 		public String kolor_auta;
 		public int predkosc_max;
 		public int rok_produkcji;
+		
 	public Auto(int a,int b,String c) {
 		this.predkosc_max = a;
 		this.rok_produkcji = b;
@@ -25,7 +26,7 @@ import java.util.Scanner;
     public void setKolor_auta() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj kolor auta:");
-        this.kolor_auta = input.nextInt();
+        this.kolor_auta = input.next();
     }
 
     public int getPredkosc_max() {
@@ -51,5 +52,5 @@ import java.util.Scanner;
         String tekst=" rok produkcji to:"+rok_produkcji+" predkosc maksymalna to:"+predkosc_max+" a kolor auta to :"+kolor_auta;
         return tekst;
     }
-	}
+	
 	}
