@@ -1,4 +1,4 @@
-
+//package folder z małej litery 
 import java.util.Scanner;
 	public class Auto{
 		public String kolor_auta;
@@ -19,9 +19,7 @@ import java.util.Scanner;
 			System.out.println("Podaj kolor auta:");
 			this.kolor_auta = input.next();
 	}
-	 public String getKolor_auta() {
-        return kolor_auta;
-    }
+
 
     public void setKolor_auta() {
 		Scanner input = new Scanner(System.in);
@@ -29,18 +27,14 @@ import java.util.Scanner;
         this.kolor_auta = input.next();
     }
 
-    public int getPredkosc_max() {
-        return predkosc_max;
-    }
+
 
     public void setPredkosc_max() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj predkosc maksymalna:");
         this.predkosc_max = input.nextInt();
     }
-	public int getrok_produkcji() {
-        return predkosc_max;
-    }
+
 
     public void setrok_produkcji() {
 		Scanner input = new Scanner(System.in);
