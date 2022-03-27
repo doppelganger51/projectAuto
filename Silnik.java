@@ -7,6 +7,12 @@ public class Silnik{
 	private int numer_serii;
 	private int liczba_koni;
 	
+	public Silnik(String a, int b, int c){
+		this.rodzaj_silnika = a;
+		this.numer_serii = b;
+		this.liczba_koni = c;
+	}
+	
 	public Silnik(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj rodzaj silnika: ");
@@ -21,19 +27,25 @@ public class Silnik{
 		return rodzaj_silnika;
 	}
 	
-	public void setrodzaj_silnika(String rodzaj_silnika){
-		this.rodzaj_silnika = rodzaj_silnika;
+	public void setrodzaj_silnika(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Podaj rodzaj silnika: ");
+		this.rodzaj_silnika = input.next();
 	}
 	public int getnumer_serii(){
 		return numer_serii;
 	}
-	public void setnumer_serii(int numer_serii){
+	public void setnumer_serii(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Podaj numer serii: ");
 		this.numer_serii = numer_serii;
 	}
 	public int getliczba_koni(){
 		return liczba_koni;
 	}
-	public void setliczba_koni(int liczba_koni){
+	public void setliczba_koni(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Podaj ilość koni: ");
 		this.liczba_koni = liczba_koni;
 	}
 	public String toString(){
