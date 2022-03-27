@@ -1,5 +1,7 @@
+<<<<<<< HEAD
+=======
 //package folder z małej litery 
-
+>>>>>>> e836890245cd70df4d7c5c60899749c6e558f0dd
 import java.util.Scanner;
 public class Auto{
 		public String kolor_auta;
@@ -47,5 +49,9 @@ public class Auto{
         String tekst=" rok produkcji to:"+rok_produkcji+" predkosc maksymalna to:"+predkosc_max+" a kolor auta to :"+kolor_auta;
         return tekst;
     }
-
+<<<<<<< HEAD
 }
+=======
+	
+	}
+>>>>>>> e836890245cd70df4d7c5c60899749c6e558f0dd
