@@ -23,26 +23,20 @@ public class Silnik{
 		this.liczba_koni = Integer.parseInt(input.next());
 	}
 	
-	public String getrodzaj_silnika(){
-		return rodzaj_silnika;
-	}
+
 	
 	public void setrodzaj_silnika(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj rodzaj silnika: ");
 		this.rodzaj_silnika = input.next();
 	}
-	public int getnumer_serii(){
-		return numer_serii;
-	}
+
 	public void setnumer_serii(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj numer serii: ");
 		this.numer_serii = numer_serii;
 	}
-	public int getliczba_koni(){
-		return liczba_koni;
-	}
+
 	public void setliczba_koni(){
 		Scanner input = new Scanner(System.in);
 		System.out.println("Podaj ilość koni: ");
