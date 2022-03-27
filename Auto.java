@@ -50,5 +50,4 @@ public class Auto{
         String tekst=" rok produkcji to:"+rok_produkcji+" predkosc maksymalna to:"+predkosc_max+" a kolor auta to :"+kolor_auta;
         return tekst;
     }
-	}
-	}
+}
