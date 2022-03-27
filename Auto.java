@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-	public class Auto{
+public class Auto{
 		public String kolor_auta;
 		public int predkosc_max;
 		public int rok_produkcji;
